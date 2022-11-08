@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestParceableBueno</string>
+    <string name="hintEtNombre">Introduce tu nombre</string>
+    <string name="hintEtNacionalidad">Introduce tu nacionalidad</string>
+    <string name="hintEtEdad">Introduce tu edad</string>
+    <string name="btnEnviar">Siguiente activity</string>
+    <string name="tv_datos">Hola %1$s - %2$s  - %3$d</string>
+</resources>

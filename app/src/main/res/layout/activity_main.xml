@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hintEtNombre"
+        />
+
+    <EditText
+        android:id="@+id/etNacionalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombre"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hintEtNacionalidad"
+        />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNacionalidad"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hintEtEdad"
+        />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEdad"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/btnEnviar"
+        />
+
+</RelativeLayout>
